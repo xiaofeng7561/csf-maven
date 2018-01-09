@@ -1,5 +1,8 @@
 package com.csf.maven.service;
 
-public class IUserService {
+public interface IUserService {
 
+	void save();
+	
+	
 }
